@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Purrfect Match</title>
+	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+  <!-- 1. link di bootstrapcdn -->
+	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+  <!-- 13. ambil cdn di fontawesome.io -->
+	<link href="http://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
+  <!-- 9. ambil di google font lato normal 400 bold 700 -->
+	<link rel="stylesheet" type="text/css" href="app.css">
+    <!-- 5. bikin link css coba ubah warna untuk uji coba -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+
+ <nav class="navbar navbar-default navbar-fixed-top">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="#">Purrfect Match</a>
+    </div>
+    <div id="navbar" class="collapse navbar-collapse">
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="#">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#">Signup  <i class="fa fa-user-plus"></i></a></li>
+        <li><a href="#about">Login  <i class="fa fa-user"></i></a></li>
+        <!-- 15. tambah icon -->
+      </ul>
+    </div>
+  </div>
+ </nav>
+ <!-- 8. copy semua yg ada di navbar bootsrap dibawah body -->
+ <!-- 8.1 dibawah navbar navbar-default. ubah container-fluid menjadi container -->
+ <!-- 8.2 ubah brand menjadi Purfect Match -->
+ <!-- 8.3 hapus form search <form></form> -->
+ <!-- 8.4 hapus dropdown di kanan. cari navbar-right; hapus mulai dr <li class="dropdown"></li> -->
+ <!-- 8.5 ctrl shift d bagian link; ubah link menjd signup dan login -->
+ <!-- 8.6 hapus dropdown di kiri. mulai dr <li class="dropdown"></li> -->
+ <!-- 8.7 hapus link dibahah nav navbar-nav. mulai dr <li class="active"...></li> + hapus li link -->
+ <!-- 8.8 tulis manual <li><a href="></a></li> ctrl shift d 3x. tulis home about contact-->
+ <!-- 8.9 tambahkan class="active" di li home untuk membuat home seperti sdh ditekan -->
+ <!-- 8.10 minimiza apakah burger bekerja -->
+
+
+ <div class="container">
+ 	<div class="row">
+ 		<div class="col-lg-12">
+ 			<div class="content">
+      <!-- bikin grup lg untuk mempermudah pindah ketengah cek di app.css content. -->
+ 				<h1>Purrfect Match</h1>
+ 				<h3>The Only Human-Feline Dating App</h3>
+ 				<hr>
+ 				<button class="btn btn-default btn-lg"><i class="fa fa-paw fa-fw"></i> Get Started!</button>
+        <!-- 14. search paw icon -->
+ 			</div>
+ 		</div>
+ 	</div>
+ </div>
+ <!-- 4.mulai dr container; grid; button;  -->
+
+ <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.4.js"></script>
+ <!-- 3. ambil di jquery cdn. minified; copy paste link  -->
+ <script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+ <!-- 2. ambil di bootstrapcdn -->
+
+
+</body>
+</html>
+
+<!-- If you want your bootstrap styled website to be responsive on mobile then be sure to add the following meta tag to your <head>  element, above the <title>  tag:
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+ -->
